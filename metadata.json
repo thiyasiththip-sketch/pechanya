@@ -1,0 +1,8 @@
+{
+  "name": "MedTrack",
+  "description": "แอปพลิเคชันสำหรับบันทึกและติดตามการรับประทานยาอย่างปลอดภัยและครบถ้วน",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Quicksand", sans-serif;
+  
+  --color-primary: #006c52;
+  --color-primary-container: #98ffd9;
+  --color-on-primary-container: #00785c;
+  --color-secondary: #286487;
+  --color-secondary-container: #9ed5fd;
+  --color-on-secondary-container: #1f5d80;
+  --color-tertiary: #5c5d6e;
+  --color-tertiary-container: #eaeafe;
+  --color-on-tertiary-container: #67697a;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-background: #f6fbf6;
+  --color-on-background: #171d1a;
+  
+  --color-surface: #f6fbf6;
+  --color-on-surface: #171d1a;
+  --color-on-surface-variant: #3e4944;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f0f5f0;
+  --color-surface-container: #eaefea;
+  --color-surface-container-high: #e4e9e5;
+  --color-surface-container-highest: #dfe4df;
+  
+  --color-outline: #6e7a74;
+  --color-outline-variant: #bdc9c2;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
